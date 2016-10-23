@@ -734,7 +734,7 @@ section h3.section-subheading {
 
 .team-member {
     margin-bottom: 50px;
-    text-align: left;
+    text-align: justify;
 }
 
 .team-member img {
@@ -965,12 +965,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #262626;
+    background: #71c6e5;
 }
 
 ::selection {
     text-shadow: none;
-    background: #262626;
+    background: #71c6e5;
 }
 
 img::selection {
@@ -1016,7 +1016,7 @@ img.FB {
   padding: 15%;
 }
 
-nav{
+nav {
     margin-left: 0;
     margin-right: 0;
 }
@@ -1064,4 +1064,13 @@ nav{
 
 .clear {
     clear: left;
+}
+
+a em {
+    font-weight: bold;
+    color: #9695C9;
+}
+
+.my-border{
+    border: solid;
 }
