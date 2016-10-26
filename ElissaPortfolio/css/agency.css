@@ -75,7 +75,7 @@ h2 {
   display: block;
   max-width: auto;
   height: auto;
-   margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
      
 }
@@ -472,14 +472,14 @@ section h3.section-subheading {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: #262626;
+    background: #fff;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-    opacity: 0.5;
+    opacity: 0.3;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -748,9 +748,14 @@ section h3.section-subheading {
     text-transform: none;
 }
 
+.team-member h3 {
+    margin-top: 5px;
+}
+
 .team-member p {
     margin-top: 0;
     font-size: 16px;
+    line-height: 1.69;
 }
 
 aside.clients img {
@@ -1073,4 +1078,10 @@ a em {
 
 .my-border{
     border: solid;
+    border-color: #262626;
+    border-width: 1px;
+}
+
+html {
+    overflow-y: scroll;
 }
