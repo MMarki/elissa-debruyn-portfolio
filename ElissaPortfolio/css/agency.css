@@ -1082,6 +1082,57 @@ a em {
     border-width: 1px;
 }
 
+.my-forced-size{
+    width: auto;
+    max-height: 300px;
+}
+
+.my-respaced-grid {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.my-resume-content{
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 20px;
+    margin-left: 20%;
+}
+
+.my-resume-content ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.my-resume-content p{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.42857143;
+}
+
+.my-resume-content div{
+    max-width: 560px;
+}
+.my-resume-bold {
+    font-weight: bold;
+    font-size: 18px
+}
+
+.my-resume-title {
+    font-weight: bold;
+    color: #9695C9;
+    font-size: 14pt;
+}
+
+.my-resume-header {
+    font-size: 11pt;
+}
+
+.my-download-blurb{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+}
+
 html {
     overflow-y: scroll;
 }
