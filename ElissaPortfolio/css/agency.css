@@ -1133,6 +1133,19 @@ a em {
     font-weight: 600;
 }
 
+div.my-logo-div{
+    text-align: center;
+}
+
+a.my-image-link {
+    display: inline-block;
+    vertical-align: bottom; /* try out: bottom, middle, top */
+}
+
+a.image-link img {
+    vertical-align: bottom; /* try out: bottom, middle, top */
+}
+
 html {
     overflow-y: scroll;
 }
