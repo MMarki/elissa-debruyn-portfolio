@@ -1039,9 +1039,10 @@ nav {
     font-size: 18px;
 }
 
-.my-navbar  a {
-   padding: 10px;
-   margin: 20px;
+@media(max-width: 450px){
+   .my-navbar > li {
+        display: block;
+    }
 }
 
 .my-logo {
