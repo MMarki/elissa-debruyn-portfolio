@@ -17,10 +17,11 @@ body {
     color: #262626;
 }
 
-p {
+p.blurb {
     font-size: 14px;
     line-height: 1.75;
-   font-family: 'Istok Web', sans-serif;
+    font-family: 'Istok Web', sans-serif;
+    text-align: justify;
    
 }
 
@@ -49,7 +50,7 @@ a.active {
 h5 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 300;
-    font-color: white;
+    color: white;
 }
 
 h1,
@@ -1037,6 +1038,11 @@ nav {
     float: none;
     display: inline-block;
     font-size: 18px;
+}
+
+.my-navbar  a {
+    padding: 10px;
+    margin: 20px;
 }
 
 @media(max-width: 450px){
