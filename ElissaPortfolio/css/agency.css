@@ -1094,6 +1094,11 @@ a em {
     max-height: 300px;
 }
 
+.my-forced-size-large{
+    width: auto;
+    height: 350px;
+}
+
 .my-respaced-grid {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -1156,3 +1161,24 @@ a.image-link img {
 html {
     overflow-y: scroll;
 }
+
+.row-big-margin{
+    margin-top:30px;
+}
+
+@media (max-width: 992px){
+   .line-drop{
+        text-align:center;
+    } 
+    
+    .contact-info{
+        display:inline;
+    }
+}
+
+@media (max-width: 1200px){
+   .mobile-margin{
+        margin-bottom:30px;
+    } 
+}
+
